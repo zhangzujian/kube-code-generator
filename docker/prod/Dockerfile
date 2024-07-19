@@ -15,7 +15,7 @@ COPY . .
 RUN ./scripts/build/bin/build-raw.sh
 
 FROM golang:1.22
-ARG CODEGEN_VERSION="1.30.0"
+ARG CODEGEN_VERSION="1.30.3"
 ARG CONTROLLER_GEN_VERSION="0.15.0"
 
 
